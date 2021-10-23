@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "tsc",
     "build": "tsc",
-    "start": "npm run build && node --exit-child dist/server.js",
+    "start": "npm run build && node dist/server.js",
     "dev": "ts-node-dev --exit-child src/server.ts"
   },
   "keywords": [],
