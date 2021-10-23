@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "postinstall": "tsc",
-    "start": "src/server.js",
+    "start": "node server.js",
     "dev": "ts-node-dev --exit-child src/server.ts"
   },
   "keywords": [],
