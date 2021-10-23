@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build" : "tsc",
+    "start" : "npm build",
     "dev": "ts-node-dev --exit-child src/server.ts"
   },
   "keywords": [],
