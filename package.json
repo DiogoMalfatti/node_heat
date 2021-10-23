@@ -2,10 +2,10 @@
   "name": "node_heat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
     "build" : "tsc",
-    "start" : "npm build",
+    "start" : "npm build && ts-node-dev --exit-child src/server.ts",
     "dev": "ts-node-dev --exit-child src/server.ts"
   },
   "keywords": [],
