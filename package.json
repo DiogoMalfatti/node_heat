@@ -5,12 +5,13 @@
   "main": "server.ts",
   "scripts": {
     "postinstall": "tsc",
-    "start": "server.js",
+    "start": "node src/server.ts",
     "dev": "ts-node-dev --exit-child src/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "@prisma/client": "^3.3.0",
     "axios": "^0.23.0",

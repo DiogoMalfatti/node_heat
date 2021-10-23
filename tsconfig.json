@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2017",
-    "module": "commonjs",                       
+    "module": "CommonJS",                       
     "esModuleInterop": true,                             
     "forceConsistentCasingInFileNames": true,
     "strict": false,         
@@ -9,5 +9,6 @@
     "typeRoots": ["./src/@types", "node_modules/@types"],
     "rootDir": "src",
     "outDir": "dist"                         
-  }
+  },
+  "exclude": ["node_modules"]
 }
