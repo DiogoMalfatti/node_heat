@@ -5,6 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "postinstall": "tsc",
+    "build": "tsc",
     "start": "cross-env NODE_ENV=production node dist/index.js",
     "dev": "ts-node-dev --exit-child src/server.ts"
   },
